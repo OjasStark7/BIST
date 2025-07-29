@@ -1,5 +1,5 @@
 # BIST
-In this project, I have implemented a Built In Self Test (BIST) using a modular LFSR as TPG, a CUT and an SISR as ORA. The BIST is used to test the circuit and give the final signature as the output.
+In this project, I have implemented a Built In Self Test (BIST) using a modular Linear Feedback Shift Register (LFSR) as Test Pattern Generator (TPG), a Circuit Under Test (CUT) and a Single Input Shift Register (SISR) as Output Response Analyzer (ORA). The BIST is used to test the circuit and give the final signature as the output.
 
 The characteristic polynomial used for the LFSR & the SISR is: Φ(x) = x^4 + x^3 + x^2 + 1 & the circuit used as the CUT is f = a.b + c.d.
 
